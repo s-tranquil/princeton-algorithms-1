@@ -1,3 +1,7 @@
+import edu.princeton.cs.algs4.StdOut;
+
+import java.util.Iterator;
+
 public class Deque<Item> implements Iterable<Item> {
     private class Node<Item> {
         Node<Item> next;
@@ -6,25 +10,28 @@ public class Deque<Item> implements Iterable<Item> {
     }
 
     private class DequeIterator<Item> implements Iterator<Item> {
-        private Deque<Item> value;
+        private Node<Item> current;
 
         // constructor
-        public DequeIterator<Item>(
-        Deque<Item> value)
-
-        {
-            this.value = value;
+        public DequeIterator(Node<Item> first) {
+            this.current = first;
             // initialize cursor
         }
 
         // Checks if the next element exists
         public boolean hasNext() {
-            return !this.value.isEmpty();
+            return this.current != null;
         }
 
         // moves the cursor/iterator to next element
         public Item next() {
-            return this.value.removeFirst();
+            if (!this.hasNext()) {
+                throw new java.util.NoSuchElementException();
+            }
+
+            Node<Item> oldCurrent = this.current;
+            this.current = oldCurrent.next;
+            return oldCurrent.value;
         }
 
         // Used to remove an element. Implement only if needed
@@ -52,10 +59,11 @@ public class Deque<Item> implements Iterable<Item> {
         return n;
     }
 
-    private void addFirstNode() {
+    private void addFirstNode(Item item) {
         Node<Item> node = new Node<Item>();
         node.value = item;
-        first = last = node;
+        first = node;
+        last = node;
     }
 
     // add the item to the front
@@ -65,14 +73,15 @@ public class Deque<Item> implements Iterable<Item> {
         }
 
         if (n == 0) {
-            addFirstNode();
-        } else {
+            addFirstNode(item);
+        }
+        else {
             Node<Item> oldFirst = first;
 
             first = new Node<Item>();
-            first.prev = oldFirst;
+            first.next = oldFirst;
             first.value = item;
-            oldFirst.next = first;
+            oldFirst.prev = first;
         }
         n++;
     }
@@ -84,14 +93,15 @@ public class Deque<Item> implements Iterable<Item> {
         }
 
         if (n == 0) {
-            addFirstNode();
-        } else {
+            addFirstNode(item);
+        }
+        else {
             Node<Item> oldLast = last;
 
             last = new Node<Item>();
-            last.next = oldLast;
+            last.prev = oldLast;
             last.value = item;
-            oldLast.prev = last;
+            oldLast.next = last;
         }
         n++;
     }
@@ -104,14 +114,16 @@ public class Deque<Item> implements Iterable<Item> {
 
         if (--n == 0) {
             Node<Item> oldFirst = first;
-            first = last = null;
-            return oldFirst;
-        } else {
+            first = null;
+            last = null;
+            return oldFirst.value;
+        }
+        else {
             Node<Item> oldFirst = first;
 
-            first = oldFirst.prev;
-            first.next = null;
-            return oldFirst;
+            first = oldFirst.next;
+            first.prev = null;
+            return oldFirst.value;
         }
     }
 
@@ -123,25 +135,58 @@ public class Deque<Item> implements Iterable<Item> {
 
         if (--n == 0) {
             Node<Item> oldFirst = first;
-            first = last = null;
-            return oldFirst;
-        } else {
+            first = null;
+            last = null;
+            return oldFirst.value;
+        }
+        else {
             Node<Item> oldLast = last;
 
-            last = oldLast.next;
-            last.prev = null;
-            return oldLast;
+            last = oldLast.prev;
+            last.next = null;
+            return oldLast.value;
         }
     }
 
     // return an iterator over items in order from front to back
     public Iterator<Item> iterator() {
-        return new DequeIterator<Item>(this);
+        return new DequeIterator<Item>(this.first);
+    }
+
+    private static class TInt {
+        public int intValue;
+
+        public TInt(int value) {
+            intValue = value;
+        }
     }
 
     // unit testing (required)
     public static void main(String[] args) {
-        public
+        Deque<TInt> dq = new Deque<TInt>();
+        dq.addFirst(new TInt(1));
+        dq.addFirst(new TInt(2));
+        dq.addFirst(new TInt(3));
+        dq.addLast(new TInt(0));
+        StdOut.println(dq.size());
+
+        Iterator<TInt> iterator = dq.iterator();
+
+        StdOut.println(
+                iterator.next().intValue + " " +
+                        iterator.next().intValue + " " +
+                        iterator.next().intValue + " " +
+                        iterator.next().intValue
+        );
+        StdOut.println(iterator.hasNext());
+
+        StdOut.println(
+                dq.removeLast().intValue + " " +
+                        dq.removeFirst().intValue + " " +
+                        dq.removeFirst().intValue + " " +
+                        dq.removeFirst().intValue
+        );
+        StdOut.println(dq.isEmpty());
 
     }
 
