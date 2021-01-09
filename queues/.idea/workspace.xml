@@ -36,7 +36,7 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.RandomizedQueue">
+  <component name="RunManager" selected="Application.Permutation">
     <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Deque" />
       <module name="Algorithms, Part I" />
@@ -44,16 +44,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomizedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RandomizedQueue" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Permutation" />
       <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="5 A B A A B" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Deque" />
+      <item itemvalue="Application.Permutation" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RandomizedQueue" />
+        <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.Deque" />
       </list>
     </recent_temporary>
@@ -68,42 +73,54 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state width="456" height="466" key="DebuggerActiveHint" timestamp="1610202666719">
+    <state x="692" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610204563245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="456" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1610202666719" />
-    <state width="1921" height="298" key="GridCell.Tab.0.bottom" timestamp="1610202932609">
+    <state x="692" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610204563245" />
+    <state x="1018" y="162" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1610204518976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610202932609" />
-    <state width="1921" height="298" key="GridCell.Tab.0.center" timestamp="1610202932609">
+    <state x="1018" y="162" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610204518976" />
+    <state x="967" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1610204162766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610202932609" />
-    <state width="1921" height="298" key="GridCell.Tab.0.left" timestamp="1610202932609">
+    <state x="967" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610204162766" />
+    <state width="456" height="466" key="DebuggerActiveHint" timestamp="1610224539753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610202932609" />
-    <state width="1921" height="298" key="GridCell.Tab.0.right" timestamp="1610202932609">
+    <state width="456" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1610224539753" />
+    <state width="1921" height="299" key="GridCell.Tab.0.bottom" timestamp="1610224954762">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610202932609" />
-    <state width="1921" height="368" key="GridCell.Tab.1.bottom" timestamp="1610202710245">
+    <state width="1921" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610224954762" />
+    <state width="1921" height="299" key="GridCell.Tab.0.center" timestamp="1610224954761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="368" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610202710245" />
-    <state width="1921" height="368" key="GridCell.Tab.1.center" timestamp="1610202710245">
+    <state width="1921" height="299" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610224954761" />
+    <state width="1921" height="299" key="GridCell.Tab.0.left" timestamp="1610224954761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="368" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610202710245" />
-    <state width="1921" height="368" key="GridCell.Tab.1.left" timestamp="1610202710245">
+    <state width="1921" height="299" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610224954761" />
+    <state width="1921" height="299" key="GridCell.Tab.0.right" timestamp="1610224954762">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="368" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610202710245" />
-    <state width="1921" height="368" key="GridCell.Tab.1.right" timestamp="1610202710245">
+    <state width="1921" height="299" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610224954762" />
+    <state width="1921" height="299" key="GridCell.Tab.1.bottom" timestamp="1610224948894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="368" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610202710245" />
+    <state width="1921" height="299" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610224948894" />
+    <state width="1921" height="299" key="GridCell.Tab.1.center" timestamp="1610224948894">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="299" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610224948894" />
+    <state width="1921" height="299" key="GridCell.Tab.1.left" timestamp="1610224948894">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="299" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610224948894" />
+    <state width="1921" height="299" key="GridCell.Tab.1.right" timestamp="1610224948894">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="299" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610224948894" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610203381145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -136,6 +153,16 @@
           <url>file://$PROJECT_DIR$/RandomizedQueue.java</url>
           <line>96</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Permutation.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Permutation.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

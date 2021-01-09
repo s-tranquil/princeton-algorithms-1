@@ -10,16 +10,16 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         private int currentIndex;
 
         // constructor
-        public RandomizedQueueIterator(Item[] items) {
-            this.items = (Item[]) new Object[items.length];
-            int[] availableIndices = new int[items.length];
-            for (int i = 0; i < items.length; i++) {
+        public RandomizedQueueIterator(Item[] items, int n) {
+            this.items = (Item[]) new Object[n];
+            int[] availableIndices = new int[n];
+            for (int i = 0; i < n; i++) {
                 availableIndices[i] = i;
                 this.items[i] = items[i];
             }
             StdRandom.shuffle(availableIndices);
             this.shuffledIndices = availableIndices;
-            this.currentIndex = items.length - 1;
+            this.currentIndex = n - 1;
         }
 
         // Checks if the next element exists
@@ -132,7 +132,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 
     // return an independent iterator over items in random order
     public Iterator<Item> iterator() {
-        return new RandomizedQueueIterator<Item>(items);
+        return new RandomizedQueueIterator<Item>(items, n);
     }
 
     // unit testing (required)
