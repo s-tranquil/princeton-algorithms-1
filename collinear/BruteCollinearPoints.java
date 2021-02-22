@@ -5,12 +5,24 @@ public class BruteCollinearPoints {
     private int segmentIndex;
 
     public BruteCollinearPoints(Point[] points) {
-        if (points == null || points.length < 4) {
+        if (points == null) {
             throw new IllegalArgumentException();
+        }
+
+        for (int i = 0; i < points.length; i++) {
+            for (int j = i + 1; j < points.length; j++) {
+                if (points[i].compareTo(points[j]) == 0) {
+                    throw new java.lang.IllegalArgumentException();
+                }
+            }
         }
 
         segmentIndex = 0;
         segments = new LineSegment[1];
+
+        if (points.length < 4) {
+            return;
+        }
 
         for (int x1 = 0; x1 < points.length - 3; x1++) {
             for (int x2 = x1 + 1; x2 < points.length - 2; x2++) {

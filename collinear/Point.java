@@ -9,6 +9,7 @@
  ******************************************************************************/
 
 import edu.princeton.cs.algs4.StdDraw;
+import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Comparator;
 
@@ -105,12 +106,20 @@ public class Point implements Comparable<Point> {
      */
     public Comparator<Point> slopeOrder() {
         /* YOUR CODE HERE */
-        return new PointComparator();
+        return new PointComparator(this);
     }
 
     private class PointComparator implements Comparator<Point> {
+        private Point reference;
+
+        public PointComparator(Point ref) {
+            this.reference = ref;
+        }
+
         public int compare(Point o1, Point o2) {
-            return o1.compareTo(o2);
+            double s1 = reference.slopeTo(o1);
+            double s2 = reference.slopeTo(o2);
+            return Double.compare(s1, s2);
         }
     }
 
@@ -132,5 +141,10 @@ public class Point implements Comparable<Point> {
      */
     public static void main(String[] args) {
         /* YOUR CODE HERE */
+        Point a = new Point(0, 0);
+        Point b = new Point(0, 1);
+
+        double slope = a.slopeTo(b);
+        StdOut.println("slope: " + slope);
     }
 }

@@ -36,7 +36,8 @@ public class SampleClient {
         StdDraw.setPenColor(100, 100, 255);
         StdDraw.setPenRadius(0.003);
         // print and draw the line segments
-        BruteCollinearPoints collinear = new BruteCollinearPoints(points);
+        // BruteCollinearPoints collinear = new BruteCollinearPoints(points);
+        FastCollinearPoints collinear = new FastCollinearPoints(points);
         for (LineSegment segment : collinear.segments()) {
             StdOut.println(segment);
             segment.draw();

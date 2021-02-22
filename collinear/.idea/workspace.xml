@@ -44,13 +44,21 @@
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SampleClient">
+    <configuration name="Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Point" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="input1.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SampleClient" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SampleClient" />
       <module name="Algorithms, Part I" />
-      <option name="PROGRAM_PARAMETERS" value="input56.txt" />
+      <option name="PROGRAM_PARAMETERS" value="rs1423.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -62,6 +70,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.SampleClient" />
+      <item itemvalue="Application.Point" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Point" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -73,53 +90,97 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state x="531" y="260" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612197943190">
+    <state x="531" y="260" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612529322913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="531" y="260" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612197943190" />
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1611342830887">
+    <state x="531" y="260" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612529322913" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1612199130434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611342830887" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1612199130434" />
     <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1612121942739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612121942739" />
-    <state width="1921" height="298" key="GridCell.Tab.0.bottom" timestamp="1612197919620">
+    <state x="846" y="452" key="#xdebugger.evaluate" timestamp="1612519253063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612197919620" />
-    <state width="1921" height="298" key="GridCell.Tab.0.center" timestamp="1612197919619">
+    <state x="846" y="452" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1612519253063" />
+    <state width="448" height="493" key="DebuggerActiveHint" timestamp="1612529185440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612197919619" />
-    <state width="1921" height="298" key="GridCell.Tab.0.left" timestamp="1612197919619">
+    <state width="448" height="493" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1612529185440" />
+    <state width="1921" height="298" key="GridCell.Tab.0.bottom" timestamp="1612529323242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612197919619" />
-    <state width="1921" height="298" key="GridCell.Tab.0.right" timestamp="1612197919620">
+    <state width="1921" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612529323242" />
+    <state width="1921" height="298" key="GridCell.Tab.0.center" timestamp="1612529323242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612197919620" />
-    <state width="1921" height="368" key="GridCell.Tab.1.bottom" timestamp="1612197659589">
+    <state width="1921" height="298" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612529323242" />
+    <state width="1921" height="298" key="GridCell.Tab.0.left" timestamp="1612529323242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="368" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612197659589" />
-    <state width="1921" height="368" key="GridCell.Tab.1.center" timestamp="1612197659589">
+    <state width="1921" height="298" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612529323242" />
+    <state width="1921" height="298" key="GridCell.Tab.0.right" timestamp="1612529323242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="368" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612197659589" />
-    <state width="1921" height="368" key="GridCell.Tab.1.left" timestamp="1612197659589">
+    <state width="1921" height="298" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612529323242" />
+    <state width="1921" height="368" key="GridCell.Tab.1.bottom" timestamp="1612529270428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="368" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612197659589" />
-    <state width="1921" height="368" key="GridCell.Tab.1.right" timestamp="1612197659589">
+    <state width="1921" height="368" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612529270428" />
+    <state width="1921" height="368" key="GridCell.Tab.1.center" timestamp="1612529270428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="368" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612197659589" />
+    <state width="1921" height="368" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612529270428" />
+    <state width="1921" height="368" key="GridCell.Tab.1.left" timestamp="1612529270428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="368" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612529270428" />
+    <state width="1921" height="368" key="GridCell.Tab.1.right" timestamp="1612529270428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="368" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612529270428" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1612517588520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612517588520" />
     <state x="664" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1612169560461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1612169560461" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612517561320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612517561320" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FastCollinearPoints.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FastCollinearPoints.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="currentSlope == Double.POSITIVE_INFINITY || k == 66" language="JAVA" />
+          <url>file://$PROJECT_DIR$/FastCollinearPoints.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="referencePoint.x == 8000" language="JAVA" />
+          <url>file://$PROJECT_DIR$/FastCollinearPoints.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
