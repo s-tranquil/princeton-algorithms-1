@@ -164,7 +164,7 @@ public class Board {
 
         do {
             // randomly select a tile
-            int[] coords = new int[] { StdRandom.uniform(_size - 1), StdRandom.uniform(_size - 1) };
+            int[] coords = new int[] { StdRandom.uniform(_size), StdRandom.uniform(_size) };
 
             // dont use blank square
             if (newTiles[coords[0]][coords[1]] == 0) {

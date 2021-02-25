@@ -42,15 +42,25 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PuzzleChecker">
     <configuration name="Board" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Board" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
+    <configuration name="PuzzleChecker" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="PuzzleChecker" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="puzzle4x4-40.txt" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Board" />
+      <item itemvalue="Application.PuzzleChecker" />
+    </list>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -62,37 +72,112 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1921" height="298" key="GridCell.Tab.0.bottom" timestamp="1613984438340">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614262038852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613984438340" />
-    <state width="1921" height="298" key="GridCell.Tab.0.center" timestamp="1613984438339">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614262038852" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1614013972700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613984438339" />
-    <state width="1921" height="298" key="GridCell.Tab.0.left" timestamp="1613984438339">
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1614013972700" />
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1614015372714">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613984438339" />
-    <state width="1921" height="298" key="GridCell.Tab.0.right" timestamp="1613984438340">
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614015372714" />
+    <state x="689" y="452" key="#xdebugger.evaluate" timestamp="1614246306380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613984438340" />
-    <state width="1921" height="368" key="GridCell.Tab.1.bottom" timestamp="1613984390590">
+    <state x="689" y="452" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1614246306380" />
+    <state width="436" height="466" key="DebuggerActiveHint" timestamp="1614246262502">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="368" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613984390590" />
-    <state width="1921" height="368" key="GridCell.Tab.1.center" timestamp="1613984390590">
+    <state width="436" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1614246262502" />
+    <state width="1921" height="300" key="GridCell.Tab.0.bottom" timestamp="1614262038930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="368" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613984390590" />
-    <state width="1921" height="368" key="GridCell.Tab.1.left" timestamp="1613984390590">
+    <state width="1921" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614262038930" />
+    <state width="1921" height="300" key="GridCell.Tab.0.center" timestamp="1614262038930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="368" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613984390590" />
-    <state width="1921" height="368" key="GridCell.Tab.1.right" timestamp="1613984390590">
+    <state width="1921" height="300" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614262038930" />
+    <state width="1921" height="300" key="GridCell.Tab.0.left" timestamp="1614262038930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="368" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613984390590" />
+    <state width="1921" height="300" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614262038930" />
+    <state width="1921" height="300" key="GridCell.Tab.0.right" timestamp="1614262038930">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="300" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614262038930" />
+    <state width="1921" height="368" key="GridCell.Tab.1.bottom" timestamp="1614246499914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="368" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614246499914" />
+    <state width="1921" height="368" key="GridCell.Tab.1.center" timestamp="1614246499914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="368" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614246499914" />
+    <state width="1921" height="368" key="GridCell.Tab.1.left" timestamp="1614246499914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="368" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614246499914" />
+    <state width="1921" height="368" key="GridCell.Tab.1.right" timestamp="1614246499914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="368" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614246499914" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1614171923578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1614171923578" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1614169758732">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614169758732" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Solver.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Solver.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Solver.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Solver.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Solver.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Solver.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="edu.princeton.cs.algs4.MinPQ" fieldName="pq" />
+        <PinnedItemInfo typeName="Solver$SearchNode" fieldName="board" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="min.board.toString()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

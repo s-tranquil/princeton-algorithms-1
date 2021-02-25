@@ -49,6 +49,14 @@ public class PuzzleChecker {
             Board initial = new Board(tiles);
             Solver solver = new Solver(initial);
             StdOut.println(filename + ": " + solver.moves());
+
+            Iterable<Board> solution = solver.solution();
+            if (solution == null) {
+                StdOut.println("unsolvable");
+            }
+            else {
+                solver.solution().forEach(x -> StdOut.println(x));
+            }
         }
     }
 }
