@@ -33,7 +33,6 @@ public class Solver {
         }
     }
 
-
     private int _moves;
     private Iterable<Board> _solution;
 
@@ -87,18 +86,13 @@ public class Solver {
         Iterable<Board> neighbours = parentNode.board.neighbors();
         neighbours.forEach(n -> {
             boolean isDuplicate = false;
-            SearchNode current = parentNode; // В current ссылка на объект
+            SearchNode current = parentNode;
             do {
                 if (current.board.equals(n)) {
                     isDuplicate = true;
                 }
                 current = current.prev;
             } while (current != null);
-            // queue.forEach(q -> {
-            //     if (q.board.equals(n)) {
-            //         equals.set(true);
-            //     }
-            // });
 
             if (!isDuplicate) {
                 queue.insert(new SearchNode(parentNode, parentNode.moves + 1, n));
@@ -123,6 +117,6 @@ public class Solver {
 
     // test client (see below)
     public static void main(String[] args) {
-
+        // use PuzzleChecker.java
     }
 }

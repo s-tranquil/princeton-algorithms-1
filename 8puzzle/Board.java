@@ -17,6 +17,8 @@ public class Board {
     private int _size;
     private int _hamming;
     private int _manhattan;
+    private int[][] _twinTiles;
+
 
     // create a board from an n-by-n array of tiles,
     // where tiles[row][col] = tile at (row, col)
@@ -24,8 +26,9 @@ public class Board {
         _tiles = tiles;
         _size = tiles.length;
 
-        _hamming = get_hamming();
-        _manhattan = get_manhattan();
+        _hamming = getHamming();
+        _manhattan = getManhattan();
+        _twinTiles = getTwinTiles();
     }
 
     // string representation of this board
@@ -46,7 +49,7 @@ public class Board {
         return _size;
     }
 
-    private int get_hamming() {
+    private int getHamming() {
         int result = 0;
         int current = 0;
         for (int i = 0; i < _size; i++) {
@@ -65,7 +68,7 @@ public class Board {
         return _hamming;
     }
 
-    private int get_manhattan() {
+    private int getManhattan() {
         int result = 0;
         for (int i = 0; i < _size; i++) {
             for (int j = 0; j < _size; j++) {
@@ -93,6 +96,14 @@ public class Board {
     }
 
     public boolean equals(Object y) {
+        if (y == null) {
+            return false;
+        }
+
+        if (!(y instanceof Board)) {
+            return false;
+        }
+
         Board that = (Board) y;
         if (that._size != this._size) {
             return false;
@@ -156,8 +167,7 @@ public class Board {
         return newTiles;
     }
 
-    // a board that is obtained by exchanging any pair of tiles
-    public Board twin() {
+    private int[][] getTwinTiles() {
         int[][] newTiles = getTilesCopy();
         int[] a = new int[] { -1, -1 };
         int[] b = new int[] { -1, -1 };
@@ -189,7 +199,13 @@ public class Board {
         newTiles[a[0]][a[1]] = newTiles[b[0]][b[1]];
         newTiles[b[0]][b[1]] = aValue;
 
-        return new Board(newTiles);
+        return newTiles;
+    }
+
+    // a board that is obtained by exchanging any pair of tiles
+    public Board twin() {
+        // tests require twin to be the same for each call, not just constructed randomly ¯\_(ツ)_/¯
+        return new Board(_twinTiles);
     }
 
     // unit testing (not graded)
