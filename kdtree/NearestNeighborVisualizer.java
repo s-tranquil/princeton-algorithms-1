@@ -14,6 +14,7 @@
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.Point2D;
 import edu.princeton.cs.algs4.StdDraw;
+import edu.princeton.cs.algs4.StdOut;
 
 public class NearestNeighborVisualizer {
 
@@ -28,9 +29,23 @@ public class NearestNeighborVisualizer {
             double x = in.readDouble();
             double y = in.readDouble();
             Point2D p = new Point2D(x, y);
+
+            StdOut.println("________________");
+            StdOut.println("size before: " + kdtree.size());
             kdtree.insert(p);
+            StdOut.println("inserted: " + p.toString());
+            StdOut.println("size after: " + kdtree.size());
+
             brute.insert(p);
         }
+
+
+        Point2D n = kdtree.nearest(new Point2D(0.083, 0.510));
+        StdOut.println(n.toString());
+        n = kdtree.nearest(new Point2D(0.5, 0.5));
+        StdOut.println(n.toString());
+        n = kdtree.nearest(new Point2D(0.1, 0.1));
+        StdOut.println(n.toString());
 
         // process nearest neighbor queries
         StdDraw.enableDoubleBuffering();
@@ -46,6 +61,7 @@ public class NearestNeighborVisualizer {
             StdDraw.setPenColor(StdDraw.BLACK);
             StdDraw.setPenRadius(0.01);
             brute.draw();
+            kdtree.draw();
 
             // draw in red the nearest neighbor (using brute-force algorithm)
             StdDraw.setPenRadius(0.03);
@@ -56,6 +72,7 @@ public class NearestNeighborVisualizer {
             // draw in blue the nearest neighbor (using kd-tree algorithm)
             StdDraw.setPenColor(StdDraw.BLUE);
             kdtree.nearest(query).draw();
+
             StdDraw.show();
             StdDraw.pause(40);
         }

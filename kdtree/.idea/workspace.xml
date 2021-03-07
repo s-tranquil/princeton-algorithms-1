@@ -26,12 +26,6 @@
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="106" />
-    <option name="y" value="23" />
-    <option name="width" value="938" />
-    <option name="height" value="765" />
-  </component>
   <component name="ProjectId" id="1p9GEuBukZAyxFmJ0MzjPg9lK5P" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
@@ -46,14 +40,32 @@
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.NearestNeighborVisualizer">
+    <configuration name="KdTreeVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KdTreeVisualizer" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="input10.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NearestNeighborVisualizer" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NearestNeighborVisualizer" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="test1C10.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RangeSearchVisualizer" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RangeSearchVisualizer" />
       <module name="Algorithms, Part I" />
-      <option name="PROGRAM_PARAMETERS" value="input40K.txt" />
-      <method v="2" />
+      <option name="PROGRAM_PARAMETERS" value="circle100.txt" />
+      <method v="2">
+        <option name="MakeProject" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="RangeSearchVisualizer" />
@@ -62,6 +74,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.RangeSearchVisualizer" />
+      <item itemvalue="Application.NearestNeighborVisualizer" />
+      <item itemvalue="Application.KdTreeVisualizer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.KdTreeVisualizer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -73,33 +95,107 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state x="322" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614591123123">
+    <state x="322" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615106323649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="322" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614591123123" />
-    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1614590468215">
+    <state x="322" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615106323649" />
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1614707439335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614590468215" />
-    <state width="1921" height="298" key="GridCell.Tab.0.bottom" timestamp="1614591123208">
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614707439335" />
+    <state x="1173" y="224" key="#xdebugger.evaluate" timestamp="1614944809138">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614591123208" />
-    <state width="1921" height="298" key="GridCell.Tab.0.center" timestamp="1614591123208">
+    <state x="1173" y="224" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1614944809138" />
+    <state width="413" height="466" key="DebuggerActiveHint" timestamp="1615111263221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614591123208" />
-    <state width="1921" height="298" key="GridCell.Tab.0.left" timestamp="1614591123207">
+    <state width="413" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1615111263221" />
+    <state width="1921" height="211" key="GridCell.Tab.0.bottom" timestamp="1615111306869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614591123207" />
-    <state width="1921" height="298" key="GridCell.Tab.0.right" timestamp="1614591123208">
+    <state width="1921" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615111306869" />
+    <state width="1921" height="211" key="GridCell.Tab.0.center" timestamp="1615111306869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614591123208" />
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1614588152479">
+    <state width="1921" height="211" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615111306869" />
+    <state width="1921" height="211" key="GridCell.Tab.0.left" timestamp="1615111306869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614588152479" />
+    <state width="1921" height="211" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615111306869" />
+    <state width="1921" height="211" key="GridCell.Tab.0.right" timestamp="1615111306869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="211" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615111306869" />
+    <state width="1921" height="211" key="GridCell.Tab.1.bottom" timestamp="1615111306869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="211" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615111306869" />
+    <state width="1921" height="211" key="GridCell.Tab.1.center" timestamp="1615111306869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="211" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615111306869" />
+    <state width="1921" height="211" key="GridCell.Tab.1.left" timestamp="1615111306869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="211" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615111306869" />
+    <state width="1921" height="211" key="GridCell.Tab.1.right" timestamp="1615111306869">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="211" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615111306869" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1614707613240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614707613240" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1614870651870">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614870651870" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/KdTree.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NearestNeighborVisualizer.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/KdTree.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/KdTree.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/KdTree.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/KdTree.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/KdTree.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="KdTree$Node" fieldName="rt" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

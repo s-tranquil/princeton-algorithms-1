@@ -8,15 +8,15 @@ import edu.princeton.cs.algs4.Point2D;
 import edu.princeton.cs.algs4.RectHV;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
+import java.util.TreeSet;
 
 public class PointSET {
-    private HashSet<Point2D> _points;
+    private TreeSet<Point2D> _points;
 
     public PointSET()                               // construct an empty set of points
     {
-        _points = new HashSet<Point2D>();
+        _points = new TreeSet<Point2D>();
     }
 
     public boolean isEmpty()                      // is the set empty?
@@ -29,14 +29,26 @@ public class PointSET {
         return _points.size();
     }
 
+    private void throwIllegal() {
+        throw new IllegalArgumentException();
+    }
+
+    private void throwIfNull(Point2D p) {
+        if (p == null) {
+            throwIllegal();
+        }
+    }
+
     public void insert(
             Point2D p)              // add the point to the set (if it is not already in the set)
     {
+        throwIfNull(p);
         _points.add(p);
     }
 
     public boolean contains(Point2D p)            // does the set contain point p?
     {
+        throwIfNull(p);
         return _points.contains(p);
     }
 
@@ -48,6 +60,10 @@ public class PointSET {
     public Iterable<Point2D> range(
             RectHV rect)             // all points that are inside the rectangle (or on the boundary)
     {
+        if (rect == null) {
+            throwIllegal();
+        }
+
         List<Point2D> result = new ArrayList<Point2D>();
         _points.forEach(p -> {
             if (rect.contains(p)) {
@@ -63,11 +79,13 @@ public class PointSET {
         if (isEmpty()) {
             return null;
         }
+        throwIfNull(p);
         double distance = Double.POSITIVE_INFINITY;
         Point2D result = null;
         for (Point2D x : _points) {
-            if (p.distanceTo(x) < distance) {
-                distance = p.distanceTo(x);
+            double d = p.distanceSquaredTo(x);
+            if (d < distance) {
+                distance = d;
                 result = x;
             }
         }
