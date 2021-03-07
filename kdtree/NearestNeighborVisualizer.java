@@ -40,6 +40,15 @@ public class NearestNeighborVisualizer {
         }
 
 
+        //test 2a input5.txt
+        // boolean test2aContains = kdtree.contains(new Point2D(0.87, 0.2));
+        // StdOut.println("test2aContains: " + test2aContains);
+        // assert (test2aContains == false);
+
+        //test 1d
+        int test1DCount = kdtree.size();
+        assert (test1DCount == 3);
+
         Point2D n = kdtree.nearest(new Point2D(0.083, 0.510));
         StdOut.println(n.toString());
         n = kdtree.nearest(new Point2D(0.5, 0.5));

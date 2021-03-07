@@ -13,8 +13,8 @@ import java.util.ArrayList;
 public class KdTree {
 
     private static class Node {
-        private Point2D p;      // the point
-        private RectHV rect;    // the axis-aligned rectangle corresponding to this node
+        private final Point2D p;      // the point
+        private final RectHV rect;    // the axis-aligned rectangle corresponding to this node
         private Node lb;        // the left/bottom subtree
         private Node rt;        // the right/top subtree
 
@@ -55,27 +55,18 @@ public class KdTree {
             return new Node(point, rect);
         }
 
-        if (point.equals(x.p)) {
+        int cmp = compareDimension(point, x.p, isVertical);
+        if (cmp == 0 && point.equals(x.p)) {
             return x;
         }
-
-        int cmp = compareDimension(point, x.p, isVertical);
-        if (cmp < 0) {
-            if (x.lb != null) {
-                x.lb = put(x.lb, point, !isVertical, x.lb.rect);
-            }
-
+        else if (cmp < 0) {
             // lowering the upper bound
             RectHV r = isVertical
                        ? new RectHV(rect.xmin(), rect.ymin(), rect.xmax(), x.p.y())
                        : new RectHV(rect.xmin(), rect.ymin(), x.p.x(), rect.ymax());
             x.lb = put(x.lb, point, !isVertical, r);
         }
-        else {
-            if (x.rt != null) {
-                x.rt = put(x.rt, point, !isVertical, x.rt.rect);
-            }
-
+        else { // cmp >= 0
             // raising the lower bound
             RectHV r = isVertical
                        ? new RectHV(rect.xmin(), x.p.y(), rect.xmax(), rect.ymax())
@@ -118,7 +109,10 @@ public class KdTree {
         else if (cmp > 0) {
             return get(x.rt, key, !isVertical);
         }
-        return x;
+        else if (x.p.equals(key)) {
+            return x;
+        }
+        return null;
     }
 
     public boolean contains(Point2D p)            // does the set contain point p?
@@ -220,6 +214,6 @@ public class KdTree {
     }
 
     public static void main(String[] args) {
-
+        // use Visualizers for tests
     }
 }
