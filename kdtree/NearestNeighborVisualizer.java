@@ -45,9 +45,19 @@ public class NearestNeighborVisualizer {
         // StdOut.println("test2aContains: " + test2aContains);
         // assert (test2aContains == false);
 
+        //test 2a input10.txt
+        // boolean test2aContains = kdtree.contains(new Point2D(0.9, 0.6));
+        // StdOut.println("test2aContains: " + test2aContains);
+        // assert (test2aContains == true);
+
+        //test 2c
+        boolean test2cContains = kdtree.contains(new Point2D(0, 0));
+        StdOut.println("test2cContains: " + test2cContains);
+        assert (test2cContains == true);
+
         //test 1d
-        int test1DCount = kdtree.size();
-        assert (test1DCount == 3);
+        // int test1DCount = kdtree.size();
+        // assert (test1DCount == 3);
 
         Point2D n = kdtree.nearest(new Point2D(0.083, 0.510));
         StdOut.println(n.toString());

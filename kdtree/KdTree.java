@@ -102,17 +102,16 @@ public class KdTree {
             return null;
         }
 
-        int cmp = compareDimension(x.p, key, isVertical);
-        if (cmp < 0) {
-            return get(x.lb, key, !isVertical);
-        }
-        else if (cmp > 0) {
-            return get(x.rt, key, !isVertical);
-        }
-        else if (x.p.equals(key)) {
+        int cmp = compareDimension(key, x.p, isVertical);
+        if (cmp == 0 && x.p.equals(key)) {
             return x;
         }
-        return null;
+        else if (cmp < 0) {
+            return get(x.lb, key, !isVertical);
+        }
+        else {
+            return get(x.rt, key, !isVertical);
+        }
     }
 
     public boolean contains(Point2D p)            // does the set contain point p?

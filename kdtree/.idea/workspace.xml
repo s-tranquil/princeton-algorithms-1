@@ -54,7 +54,8 @@
     <configuration name="NearestNeighborVisualizer" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NearestNeighborVisualizer" />
       <module name="Algorithms, Part I" />
-      <option name="PROGRAM_PARAMETERS" value="test1d.txt" />
+      <option name="PROGRAM_PARAMETERS" value="test2C.txt" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,10 +96,10 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state x="674" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615127545001">
+    <state x="674" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615196185738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="674" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615127545001" />
+    <state x="674" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615196185738" />
     <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1614707439335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -107,42 +108,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1173" y="224" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1614944809138" />
-    <state width="413" height="466" key="DebuggerActiveHint" timestamp="1615111263221">
+    <state width="413" height="466" key="DebuggerActiveHint" timestamp="1615152039026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="413" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1615111263221" />
-    <state width="1921" height="300" key="GridCell.Tab.0.bottom" timestamp="1615127148474">
+    <state width="413" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1615152039026" />
+    <state width="1921" height="211" key="GridCell.Tab.0.bottom" timestamp="1615196424067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615127148474" />
-    <state width="1921" height="300" key="GridCell.Tab.0.center" timestamp="1615127148474">
+    <state width="1921" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615196424067" />
+    <state width="1921" height="211" key="GridCell.Tab.0.center" timestamp="1615196424066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="300" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615127148474" />
-    <state width="1921" height="300" key="GridCell.Tab.0.left" timestamp="1615127148474">
+    <state width="1921" height="211" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615196424066" />
+    <state width="1921" height="211" key="GridCell.Tab.0.left" timestamp="1615196424066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="300" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615127148474" />
-    <state width="1921" height="300" key="GridCell.Tab.0.right" timestamp="1615127148474">
+    <state width="1921" height="211" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615196424066" />
+    <state width="1921" height="211" key="GridCell.Tab.0.right" timestamp="1615196424067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="300" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615127148474" />
-    <state width="1921" height="211" key="GridCell.Tab.1.bottom" timestamp="1615113353020">
+    <state width="1921" height="211" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615196424067" />
+    <state width="1921" height="211" key="GridCell.Tab.1.bottom" timestamp="1615196424068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="211" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615113353020" />
-    <state width="1921" height="211" key="GridCell.Tab.1.center" timestamp="1615113353020">
+    <state width="1921" height="211" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615196424068" />
+    <state width="1921" height="211" key="GridCell.Tab.1.center" timestamp="1615196424067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="211" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615113353020" />
-    <state width="1921" height="211" key="GridCell.Tab.1.left" timestamp="1615113353020">
+    <state width="1921" height="211" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615196424067" />
+    <state width="1921" height="211" key="GridCell.Tab.1.left" timestamp="1615196424067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="211" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615113353020" />
-    <state width="1921" height="211" key="GridCell.Tab.1.right" timestamp="1615113353020">
+    <state width="1921" height="211" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615196424067" />
+    <state width="1921" height="211" key="GridCell.Tab.1.right" timestamp="1615196424068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="211" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615113353020" />
+    <state width="1921" height="211" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615196424068" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1614707613240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -157,8 +158,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/NearestNeighborVisualizer.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="41" />
+          <line>53</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/KdTree.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
